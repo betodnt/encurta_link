@@ -1,0 +1,58 @@
+.dock-container {
+  position: absolute;
+  bottom: 38px;
+  background: none;
+  padding: 14px;
+  width: 700px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  animation: slideY 1.5s;
+}
+
+.qrCode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Animação do dock Slide */
+
+@keyframes slideY {
+  from {
+    transform: translateY(90px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.dock-header {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dock-header button {
+  border: 0;
+  background: transparent;
+}
+
+.dock-link {
+  background-color: rgb(255, 255, 255, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 14px;
+  height: 38px;
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+}
+
+@media (max-width: 735px) {
+  .dock-container {
+    width: 90%;
+  }
+}
