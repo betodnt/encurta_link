@@ -47,7 +47,7 @@ export default function Home() {
   return (
     <div className="container-home">
       <div className="logo">
-        <img src="/encurta_link/public/Image/logo.svg" alt="Encurta Link Logo" />
+        <img src="./encurta_link/public/Image/logo.svg" alt="Encurta Link Logo" />
         <h1>Encurta Link</h1>
         <span>Cole seu link para encurtar 👇</span>
       </div>
