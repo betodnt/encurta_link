@@ -14,9 +14,9 @@
   align-items: center;
 }
 
-.logo img {
+.logo FiLink {
   width: 200px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .logo h1 {
