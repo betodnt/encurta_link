@@ -8,7 +8,7 @@ function RoutesApp() {
     <BrowserRouter>
       <Routes>
         <Route path="/encurta_link" element={<Home />} />
-        <Route path="/Links" element={<Links />} />
+        <Route path="/encurta_link/Links" element={<Links />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>

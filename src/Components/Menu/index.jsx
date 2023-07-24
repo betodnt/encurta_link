@@ -15,7 +15,7 @@ export default function Menu() {
       <a href="https://github.com/betodnt/betodnt_portfolio" className="social" target="blank">
         <BsGithub color="#fff" size={30} />
       </a>
-      <Link to="./Links" className="menu-item">
+      <Link to="/encurta_link/Links" className="menu-item">
         Meus Links
       </Link>
     </div>
