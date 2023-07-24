@@ -43,7 +43,7 @@ export default function Links() {
   return (
     <div className="links-container">
       <div className="links-header">
-        <Link to="/">
+        <Link to="/encurta_link">
           <FiArrowLeft size={38} color="#fff" />
         </Link>
         <h1>Meus Links</h1>
