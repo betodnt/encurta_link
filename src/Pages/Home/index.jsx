@@ -47,10 +47,7 @@ export default function Home() {
   return (
     <div className="container-home">
       <div className="logo">
-        <img
-          src="https://betodnt.github.io/encurta_link/src/Image/logo.svg"
-          alt="Encurta Link Logo"
-        />
+        <img src="/src/Image/logo.svg" alt="Encurta Link Logo" />
         <h1>Encurta Link</h1>
         <span>Cole seu link para encurtar 👇</span>
       </div>
