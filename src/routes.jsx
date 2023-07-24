@@ -7,9 +7,9 @@ function RoutesApp() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/encurta_link" element={<Home />} />
-        <Route path="/encurta_link/Links" element={<Links />} />
-        <Route path="*" element={<Error />} />
+        <Route exact path="/encurta_link" element={<Home />} />
+        <Route exact path="/encurta_link/Links" element={<Links />} />
+        <Route exact path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>
   );
