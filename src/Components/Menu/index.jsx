@@ -12,7 +12,7 @@ export default function Menu() {
       >
         <BsLinkedin color="#fff" size={30} />
       </a>
-      <a href="https://github.com/betodnt/betodnt_portfolio" className="social" target="blank">
+      <a href="https://github.com/betodnt" className="social" target="blank">
         <BsGithub color="#fff" size={30} />
       </a>
       <Link to="/encurta_link/Links" className="menu-item">
